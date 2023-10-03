@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    list-style: none;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -140,6 +141,7 @@ footer{
     width: 20%;  
     margin: 0;
     padding: 0;
+    
 }
 .stopkacontent ul{
     margin-right: 20px;
@@ -149,4 +151,29 @@ footer{
 .stopkacontent li{ 
     display: block;
     margin-bottom: 0.8em;
+}
+.przypisy{
+    width: 100%;
+    border-bottom: 1px #d2d2d7 solid;
+    padding: 17px 0 11px;
+}
+.przypisy ul{
+    list-style: none;
+    margin: 0
+}
+.koniecstopy{
+    width: 100%;
+    padding-top: 34px;
+}
+.taktt{
+    border-bottom: 1px #d2d2d7 solid;
+}
+.wybierzkraj{
+    float: right;
+    text-align:right;
+    width: 50%;
+}
+.footercopyr{
+    float: left;
+    width: 50%;
 }
